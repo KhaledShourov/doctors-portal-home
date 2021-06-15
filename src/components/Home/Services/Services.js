@@ -1,7 +1,7 @@
 import React from 'react';
-import fluoride from '../../../images/fluoride.png'
-import whitening from '../../../images/whitening.png'
-import cavity from '../../../images/cavity.png'
+import fluoride from '../../../images/fluoride.png';
+import whitening from '../../../images/whitening.png';
+import cavity from '../../../images/cavity.png';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
 
 
@@ -30,8 +30,8 @@ const Services = () => {
       <div className ="d-flex justify-content-center">
         <div className="w-75 row mt-4 pt-4">
           {
-          serviceData.map(service=> <ServiceDetail service={service}></ServiceDetail>)
-        }
+            serviceData.map(service=> <ServiceDetail service={service}></ServiceDetail>)
+          }
         </div>
      </div>
       </div>
